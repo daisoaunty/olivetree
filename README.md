@@ -25,14 +25,19 @@ A static site (plain HTML/CSS/JS) built to replace the Weebly site before it goe
 
 ## Still to do before launch
 
-- **Photos**: none are hotlinked from the old Weebly site (those links will break when Weebly
-  shuts down), so the design currently uses illustration only. Save your real photos from the
-  Weebly site now (Settings → export, or just right-click-save each image) and drop them into
-  an `/images` folder, then swap them in — happy to help wire this up once you have them.
+- **Photos**: drop image files into an `/images` folder in the repo, named exactly as below.
+  Until a file exists at that path, the site shows a dashed placeholder box telling you which
+  filename it's waiting for — so nothing looks broken in the meantime.
+  - `images/drtan.jpg` — Dr Tan's photo (used on both the homepage hero and About page)
+  - `images/drlim.jpg` — Dr Lim's photo (About page)
+  - `images/gallery-1.jpg` through `images/gallery-5.jpg` — clinic photos for the homepage
+    gallery (waiting area, consultation room, reception, play corner, exterior — rename/add
+    more as you like, just keep the `gallery-N.jpg` pattern or update the `src` attributes
+    in `index.html` to match whatever filenames you use)
 - **Contact form**: currently points to a placeholder Formspree endpoint. Sign up free at
   formspree.io, create a form, and replace `REPLACE_WITH_YOUR_FORMSPREE_ENDPOINT` in
   `contact.html` with your real endpoint — otherwise the form won't send anywhere yet.
-- **Email address**: the old site's email was obscured by Weebly's spam protection and wasn't
-  captured — add it to `contact.html` and the footer once you have it handy.
-- **Support staff photos/names**: Esther and Siew Poh are named on the About page per the old
-  site; add photos if you'd like.
+- **Fees**: the homepage has a placeholder "Consultation fees" section with dashes where real
+  amounts should go — update the `fee-amount` values in `index.html` once you have pricing.
+- **Email**: now live throughout the site as `olivetreekidsclinic@gmail.com` — update in
+  `index.html`, `contact.html`, and the footer of every page if this changes.
