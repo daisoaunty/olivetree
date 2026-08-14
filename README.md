@@ -9,6 +9,9 @@ A static site (plain HTML/CSS/JS) built to replace the Weebly site before it goe
 - `styles.css` — all styling
 - `script.js` — mobile nav toggle + scroll animations
 - `CNAME` — tells GitHub Pages which custom domain to serve this on
+- `favicon.ico` — browser tab icon, generated from the clinic's real logo
+- `images/favicon-16.png`, `images/favicon-32.png` — sharper favicon variants for modern browsers
+- `images/apple-touch-icon.png` — icon used when someone saves the site to an iPhone home screen
 
 ## Publishing on GitHub Pages
 
