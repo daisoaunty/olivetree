@@ -37,10 +37,7 @@ A static site (plain HTML/CSS/JS) built to replace the Weebly site before it goe
     gallery (waiting area, consultation room, reception, play corner, exterior — rename/add
     more as you like, just keep the `gallery-N.jpg` pattern or update the `src` attributes
     in `index.html` to match whatever filenames you use)
+    
 - **Contact form**: currently points to a placeholder Formspree endpoint. Sign up free at
   formspree.io, create a form, and replace `REPLACE_WITH_YOUR_FORMSPREE_ENDPOINT` in
   `contact.html` with your real endpoint — otherwise the form won't send anywhere yet.
-- **Fees**: the homepage has a placeholder "Consultation fees" section with dashes where real
-  amounts should go — update the `fee-amount` values in `index.html` once you have pricing.
-- **Email**: now live throughout the site as `olivetreekidsclinic@gmail.com` — update in
-  `index.html`, `contact.html`, and the footer of every page if this changes.
