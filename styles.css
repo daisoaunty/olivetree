@@ -258,7 +258,7 @@ a:focus-visible, button:focus-visible {
   position: absolute;
   inset: 0;
   opacity: 0;
-  animation: heroFade 20s infinite;
+  animation: heroFade 16s infinite;
 }
 .gallery-slide img { width: 100%; height: 100%; object-fit: cover; border-radius: 18px; display: block; }
 .gallery-slide.img-missing img { display: none; }
